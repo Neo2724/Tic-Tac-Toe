@@ -78,7 +78,7 @@ export default function TicTacToe() {
       <h1
         className="text-5xl font-bold mb-2 text-[#5b3a1b] outlined-brown-thin"
       >
-        Neo's Tic-Tac-Toe
+        Neo&apos;s Tic-Tac-Toe
       </h1>
       {/* Player display under title */}
       <div className="flex gap-8 mb-2">
@@ -101,7 +101,7 @@ export default function TicTacToe() {
       {!winner && isDraw && (
         <div className="mt-2 animate-draw-pop flex flex-col items-center justify-center">
           <div className="px-10 py-6 rounded-3xl bg-yellow-100 shadow-xl border-4 border-amber-800">
-            <span className="text-4xl font-bold text-[#5b3a1b] outlined-brown-thin">It's a Draw!</span>
+            <span className="text-4xl font-bold text-[#5b3a1b] outlined-brown-thin">It&apos;s a Draw!</span>
           </div>
         </div>
       )}
