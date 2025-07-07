@@ -107,7 +107,7 @@ export default function TicTacToe() {
       )}
       {!winner && !isDraw && (
         <div className="min-h-6 text-3xl font-bold animate-fade-in text-[#5b3a1b] outlined-brown-thin">
-          {`Current Turn: ${PLAYER[current as "X" | "O"].name} ${PLAYER[current as "X" | "O"].emoji}`}
+          Current Turn: {PLAYER[current as "X" | "O"].name} {PLAYER[current as "X" | "O"].emoji}
         </div>
       )}
       <div className="flex flex-col items-center gap-2 w-full">
